@@ -1,0 +1,25 @@
+{
+    "type" : "object",
+    "properties" : {
+        "airline" : {"type" : "object"},
+        "properties" : {
+            "airline_id" : {
+              "type": "string"
+              }
+            },
+        "src_airport" : {"type" : "object"},
+            "properties" : {
+                "airport_id" : {
+                  "type": "string"
+                }
+                },
+        "dst_airport" : {"type" : "object"},
+            "properties" : {
+                  "airport_id" : {
+                    "type": "string"
+                          }
+                        },
+        "codeshare" : {"type" : "boolean"}
+
+ }
+}
